@@ -36,7 +36,7 @@ var karaoke = {
 		karaoke.detalleCancion(row.cells.Cancion);
 		
 		$('body').sheetrock({
-			url: 'https://docs.google.com/spreadsheets/d/13ywXsMPe0JNZCxWLp3VJnlfMZYDZc2Q6rqxtEAP79Hk/edit#gid=483247872',
+			url: 'https://docs.google.com/spreadsheets/d/1o-NiYnd6Pk5U15mGPa7Ul4niS-SbePmDClslBwkpSNA/edit#gid=483247872',
 			query: "select A, B, C, D, E where lower(C) = '" + karaoke.detalleCancion().toLowerCase() + "' order by E desc",
 			callback: function (error, options, response) {
 				if (error === null) {
