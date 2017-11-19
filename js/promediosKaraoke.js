@@ -6,7 +6,7 @@ var karaoke = {
 	init: function () {
 		ko.applyBindings(this);
 		
-		sheetrock.defaults.url = 'https://docs.google.com/spreadsheets/d/1o-NiYnd6Pk5U15mGPa7Ul4niS-SbePmDClslBwkpSNA/edit#gid=690459637';
+		sheetrock.defaults.url = 'https://docs.google.com/spreadsheets/d/1o-NiYnd6Pk5U15mGPa7Ul4niS-SbePmDClslBwkpSNA/edit#gid=483247872';
 		sheetrock.defaults.reset = true;
 		sheetrock.defaults.rowTemplate = function () { return ''; }
 		
